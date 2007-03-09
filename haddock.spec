@@ -53,9 +53,9 @@ przejść prosto do definicji i dokumentacji tego typu.
 
 Haddock może generować dokumentację w wielu formatach; na razie
 zaimplementowany jest HTML i jest częściowe wsparcie generowania
-DocBooka. Wygenerowany HTML używa arkuszy styli, więc będzie potrzebna
-dość nowa przeglądarka, żeby go poprawnie oglądać (np. Mozilla,
-Konqueror, Opera albo IE 6).
+DocBooka. Wygenerowany HTML używa arkuszy stylów, więc będzie
+potrzebna dość nowa przeglądarka, żeby go poprawnie oglądać (np.
+Mozilla, Konqueror, Opera albo IE 6).
 
 %prep
 %setup -q
