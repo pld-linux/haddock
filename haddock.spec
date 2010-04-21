@@ -6,7 +6,7 @@ Summary:	A documentation tool for annotated Haskell source code
 Summary(pl.UTF-8):	Generator dokumentacji z oznaczonych źródeł w Haskellu
 Name:		haddock
 Version:	0.8
-Release:	4
+Release:	5
 License:	BSD-like w/o adv. clause
 Group:		Development/Tools
 Source0:	http://haskell.org/haddock/%{name}-%{version}-src.tar.gz
