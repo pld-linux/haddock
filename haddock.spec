@@ -12,11 +12,13 @@ Group:		Development/Tools
 Source0:	http://haskell.org/haddock/%{name}-%{version}-src.tar.gz
 # Source0-md5:	0a1bb64e7642f64d2560dc258c570c1d
 URL:		http://haskell.org/haddock/
+BuildRequires:	alex
 BuildRequires:	autoconf
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	docbook-style-xsl
 %{!?with_bootstrap:BuildRequires:	ghc >= 6.6}
 BuildRequires:	gmp-devel
+BuildRequires:	happy
 BuildRequires:	libxslt-progs
 #For generating documentation in PDF: fop or xmltex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
